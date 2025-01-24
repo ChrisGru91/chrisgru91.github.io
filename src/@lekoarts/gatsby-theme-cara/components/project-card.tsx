@@ -47,6 +47,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
     </div>
     <div
       sx={{
+        fontFamily: `"Karla", serif`,
         textTransform: `uppercase`,
         letterSpacing: `wide`,
         pt: 4,

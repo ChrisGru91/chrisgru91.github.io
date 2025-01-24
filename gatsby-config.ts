@@ -23,7 +23,16 @@ const config: GatsbyConfig = {
       options: {},
     },
     {
-      resolve: `gatsby-plugin-smoothscroll`,
+      resolve: `gatsby-plugin-breakpoints`,
+    },
+    {
+        resolve: 'gatsby-plugin-google-fonts',
+        options: {
+          fonts: [
+            `Karla\:400,500,600,700`,
+            `Inconsolata\:400,500`,
+          ],
+        }
     },
     {
       resolve: `gatsby-plugin-manifest`,
